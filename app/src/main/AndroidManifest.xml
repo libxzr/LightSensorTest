@@ -7,11 +7,22 @@
         android:allowBackup="true"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.LightSensorTest"
         tools:targetApi="31">
         <activity
+            android:name=".SettingsObserver"
+            android:exported="true"
+            android:label="BrightnessSettingsObserver"
+            android:theme="@android:style/Theme.Material.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.LightSensorTest">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
