@@ -9,10 +9,8 @@
         android:supportsRtl="true"
         tools:targetApi="31">
         <activity
-            android:name=".SettingsObserver"
-            android:exported="true"
-            android:label="BrightnessSettingsObserver"
-            android:theme="@android:style/Theme.Material.NoActionBar">
+            android:name=".MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,16 +18,15 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".SettingsObserver"
+            android:exported="true"
+            android:label="BrightnessSettingsObserver"
+            android:theme="@android:style/Theme.Material.NoActionBar" />
+        <activity
             android:name=".UDSensorTestActivity"
             android:exported="true"
             android:label="UDSensorTest"
-            android:theme="@style/Theme.LightSensorTest">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:theme="@style/Theme.LightSensorTest" />
     </application>
 
 </manifest>

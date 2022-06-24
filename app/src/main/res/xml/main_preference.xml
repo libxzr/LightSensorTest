@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="Under display light sensor test">
+        <intent
+            android:targetClass="moe.xzr.lightsensortest.UDSensorTestActivity"
+            android:targetPackage="moe.xzr.lightsensortest" />
+
+    </Preference>
+    <Preference android:title="Auto brightness settings observer">
+        <intent
+            android:targetClass="moe.xzr.lightsensortest.SettingsObserver"
+            android:targetPackage="moe.xzr.lightsensortest" />
+
+    </Preference>
+</PreferenceScreen>
