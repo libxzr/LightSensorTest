@@ -13,7 +13,7 @@ import android.view.WindowInsets
 import android.widget.SeekBar
 import android.widget.TextView
 
-class MainActivity : Activity(), SeekBar.OnSeekBarChangeListener, SensorEventListener,
+class UDSensorTestActivity : Activity(), SeekBar.OnSeekBarChangeListener, SensorEventListener,
     ViewTreeObserver.OnDrawListener {
     private lateinit var sensorManager: SensorManager
     private lateinit var lightSensor: Sensor
@@ -27,7 +27,7 @@ class MainActivity : Activity(), SeekBar.OnSeekBarChangeListener, SensorEventLis
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_udsensortest)
         window.insetsController?.hide(WindowInsets.Type.navigationBars())
         updateBrightness(255f)
 

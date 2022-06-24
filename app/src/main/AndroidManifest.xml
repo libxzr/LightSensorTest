@@ -20,8 +20,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".UDSensorTestActivity"
             android:exported="true"
+            android:label="UDSensorTest"
             android:theme="@style/Theme.LightSensorTest">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
