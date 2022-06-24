@@ -65,7 +65,12 @@ class SettingsObserver : Activity(), SensorEventListener {
     private fun updateOverlay() {
         val res = Resources.getSystem()
         val str = StringBuilder()
-        val names = listOf("config_autoBrightnessLevels", "config_autoBrightnessDisplayValuesNits")
+        val names = listOf(
+            "config_autoBrightnessLevels",
+            "config_autoBrightnessDisplayValuesNits",
+            "config_screenBrightnessNits",
+            "config_screenBrightnessBacklight"
+        )
         for (name in names) {
             try {
                 val typedArray = res.obtainTypedArray(
