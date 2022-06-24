@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-    <Preference android:title="Under display light sensor test">
+    <Preference
+        android:summary="You can long press to change color of the block"
+        android:title="Under display light sensor test">
         <intent
             android:targetClass="moe.xzr.lightsensortest.UDSensorTestActivity"
             android:targetPackage="moe.xzr.lightsensortest" />
