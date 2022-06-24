@@ -39,15 +39,13 @@
             android:id="@+id/brightness_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:textColor="#ffffff" />
+            android:layout_gravity="center_horizontal" />
 
         <TextView
             android:id="@+id/light_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:textColor="#ffffff"
             android:textSize="30sp" />
 
         <TextView
@@ -55,7 +53,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:textColor="#ffffff"
             android:textSize="20sp" />
     </LinearLayout>
 </FrameLayout>
