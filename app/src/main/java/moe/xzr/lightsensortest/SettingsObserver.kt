@@ -54,6 +54,7 @@ class SettingsObserver : Activity(), SensorEventListener {
             false,
             settingsContentObserver
         )
+        updateSettingsText()
     }
 
     override fun onPause() {
